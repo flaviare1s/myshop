@@ -17,6 +17,31 @@ export const Container = styled.aside<ContainerProps>`
   transition: right 1s;
 `
 
-export const Title = styled.h3`
+export const Title = styled.h3``
+
+export const CartProductList = styled.ul`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 0;
+  list-style: none;
+`
+
+export const CartProductListItem = styled.li`
+  font-size: 1rem;
+`
+
+export const CartTotal = styled.strong`
+  font-size: 1.1rem;
+`
+
+export const RemoveButton = styled.button`
+  border: none;
+  background-color: transparent;
+  color: red;
+  margin-left: 1rem;
   
+  svg {
+    font-size: 1rem;
+  }
 `
