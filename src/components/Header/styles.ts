@@ -25,7 +25,7 @@ export const ButtonsWrapper = styled.div`
   gap: 1rem;
 `
 interface AuthButtonProps {
-  isLogged: boolean;
+  $isLogged: boolean;
 }
 export const AuthButton = styled.button<AuthButtonProps>`
   display: flex;
@@ -37,7 +37,7 @@ export const AuthButton = styled.button<AuthButtonProps>`
   border-radius: 5px;
   height: 30px;
   padding: 0 1rem;
-  background-color: ${(props) => props.isLogged ? 'tomato' : 'green'};
+  background-color: ${(props) => props.$isLogged ? 'tomato' : 'green'};
   color: white;
 
   svg {
