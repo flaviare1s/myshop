@@ -1,3 +1,5 @@
+// Forma antiga do Redux, substituida pelo @reduxjs/toolkit, que usa Slices
+
 interface User {
   name: string;
   email: string;

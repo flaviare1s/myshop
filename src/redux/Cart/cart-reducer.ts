@@ -1,3 +1,5 @@
+// Forma antiga do Redux, substituida pelo @reduxjs/toolkit, que usa Slices
+
 import { Product } from "../../data/products";
 
 interface CartState {
