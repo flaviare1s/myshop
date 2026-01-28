@@ -24,6 +24,12 @@ export const ProductTitle = styled.h2`
   min-height: 4rem;
 `
 
+export const ProductDescription = styled.p`
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  min-height: 4rem;
+`
+
 export const ReviewPriceContainer = styled.div`
   display: flex;
   align-items: center;

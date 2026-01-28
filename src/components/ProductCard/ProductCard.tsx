@@ -28,8 +28,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
   return (
     <S.Card>
-      <S.ProductImage src={product.image} alt={product.description} />
+      <S.ProductImage src={product.image} alt={product.title} />
       <S.ProductTitle>{product.title}</S.ProductTitle>
+      <S.ProductDescription>{product.description}</S.ProductDescription>
       <S.ReviewPriceContainer>
         <S.Review>
           {Array.from({ length: 5 }).map((_, index) =>
