@@ -144,17 +144,17 @@ Error generating stack: `+l.message+`
   border-radius: 10px;
 `,jp=Nt.img`
   width: 250px;
-  height: 400px;
+  height: 250px;
 
   object-fit: contain;
 `,wp=Nt.h2`
   font-weight: 500;
   font-size: 1.2rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   min-height: 4rem;
 `,Hp=Nt.p`
   font-size: 0.9rem;
-  margin-top: 1rem;
+  margin-top: .5rem;
   min-height: 4rem;
 `,Bp=Nt.div`
   display: flex;
