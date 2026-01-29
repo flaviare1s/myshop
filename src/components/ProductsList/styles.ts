@@ -4,7 +4,7 @@ export const Container = styled.main`
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 2rem;
 
   max-width: 1240px;
