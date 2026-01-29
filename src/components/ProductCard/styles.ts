@@ -12,7 +12,7 @@ export const Card = styled.article`
 
 export const ProductImage = styled.img`
   width: 250px;
-  height: 400px;
+  height: 250px;
 
   object-fit: contain;
 `
@@ -20,13 +20,13 @@ export const ProductImage = styled.img`
 export const ProductTitle = styled.h2`
   font-weight: 500;
   font-size: 1.2rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   min-height: 4rem;
 `
 
 export const ProductDescription = styled.p`
   font-size: 0.9rem;
-  margin-top: 1rem;
+  margin-top: .5rem;
   min-height: 4rem;
 `
 
