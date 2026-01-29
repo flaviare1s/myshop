@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Card = styled.article`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: white;
   padding: 2rem;

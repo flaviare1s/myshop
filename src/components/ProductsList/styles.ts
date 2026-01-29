@@ -4,7 +4,7 @@ export const Container = styled.main`
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: center;
   gap: 2rem;
 
   max-width: 1240px;
@@ -13,7 +13,7 @@ export const Container = styled.main`
   padding: 0 2rem;
 
   & > * {
-    flex: 1 300px;
+    flex: 0 320px;
 
   }
 `
